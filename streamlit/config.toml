@@ -1,0 +1,19 @@
+# Streamlit 설정 파일 — 로컬 실행과 Streamlit Cloud 배포 모두에 적용됩니다.
+# 전체 옵션: streamlit config show
+
+[theme]
+# 앱 기본 색상 (추가 버튼, 체크박스, 진행률 바 등)
+primaryColor = "#FF4B4B"
+# base = "light"   # 항상 밝은 테마로 고정하려면 주석 해제 (기본: 시스템 설정 따라감)
+
+[client]
+# 오른쪽 위 메뉴를 최소화하고 "Deploy" 버튼을 숨김
+toolbarMode = "minimal"
+
+[browser]
+# Streamlit 사용 통계 전송 안 함
+gatherUsageStats = false
+
+[server]
+# 코드를 저장하면 앱 자동 새로고침 (로컬 개발용)
+runOnSave = true
